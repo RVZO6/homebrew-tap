@@ -32,7 +32,7 @@ cask "pi" do
   binary "pi/pi"
 
   postflight_steps do
-    run "repair-signature.sh", args: ["{{staged_path}}/pi/pi"]
+    run "{{staged_path}}/repair-signature.sh", args: ["{{staged_path}}/pi/pi"]
   end
 
   caveats <<~EOS
