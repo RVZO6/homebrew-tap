@@ -1,9 +1,9 @@
 cask "pi" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.3.0"
-  sha256 arm: "1f9ae61cdeae04dd68caf1a1e8ab8ec9b292062f6ccb3252e0a9cbe93b5b16f1",
-         intel: "9ff562e2e439f50971b1f6bd9b62b30946600d9e9baa4ea19635cf630a553066"
+  version "1.4.0"
+  sha256 arm: "79d9979d76a2a5adb7c28e27e9b44629928ccd0dc9fbb6ae7217860bd5e8be5d",
+         intel: "1bdefc9e1074c1de458ea9f2e43e6013ce49cd05326009b3de144037036585e2"
 
   url "https://github.com/earendil-works/pi/releases/download/v#{version}/pi-darwin-#{arch}.tar.gz"
   name "Pi"
